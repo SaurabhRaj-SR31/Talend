@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_37tncEvsEe6nHaipYbqOyw" name="m_bookadopt" dataPackage="_37tncUvsEe6nHaipYbqOyw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Saurabh Raj/Desktop/talend/lab-2/book_adoption.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_37tncUvsEe6nHaipYbqOyw" name="default" dataManager="_37tncEvsEe6nHaipYbqOyw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_37tnckvsEe6nHaipYbqOyw" id="_utOeoEvsEe6nHaipYbqOyw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_37tnc0vsEe6nHaipYbqOyw" label="courseid" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_37tndEvsEe6nHaipYbqOyw" label="sem" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_37tndUvsEe6nHaipYbqOyw" label="isbn" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
